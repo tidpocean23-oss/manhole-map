@@ -1,0 +1,48 @@
+sample 'ºÞ²z³B'
+latin1->cp950: 管理處
+latin1->big5: 管理處
+cp1252->cp950: 管理處
+cp1252->big5: 管理處
+cp950 encode fail: 'cp950' codec can't encode character '\xba' in position 0: illegal multibyte sequence
+
+sample '¥Ûªù'
+latin1->cp950: 石門
+latin1->big5: 石門
+cp1252->cp950: 石門
+cp1252->big5: 石門
+cp950 encode fail: 'cp950' codec can't encode character '\xdb' in position 1: illegal multibyte sequence
+
+sample '°ª¶¯'
+latin1->cp950: 高雄
+latin1->big5: 高雄
+cp1252->cp950: 高雄
+cp1252->big5: 高雄
+cp950 encode fail: 'cp950' codec can't encode character '\xaa' in position 1: illegal multibyte sequence
+
+sample 'ÄÝ©Ê'
+latin1->cp950: 屬性
+latin1->big5: 屬性
+cp1252->cp950: 屬性
+cp1252->big5: 屬性
+cp950 encode fail: 'cp950' codec can't encode character '\xc4' in position 0: illegal multibyte sequence
+
+sample 'Äéµ@±M¥Î´ë¹D'
+latin1->cp950: 灌溉專用渠道
+latin1->big5: 灌溉專用渠道
+cp1252->cp950: 灌溉專用渠道
+cp1252->big5: 灌溉專用渠道
+cp950 encode fail: 'cp950' codec can't encode character '\xc4' in position 0: illegal multibyte sequence
+
+sample '¤U´å¨ã¤ÞÄé»Ý¨D'
+latin1->cp950: 下游具引灌需求
+latin1->big5: 下游具引灌需求
+cp1252->cp950: 下游具引灌需求
+cp1252->big5: 下游具引灌需求
+cp950 encode fail: 'cp950' codec can't encode character '\xa4' in position 0: illegal multibyte sequence
+
+sample '¤T¦`'
+latin1->cp950: 三圳
+latin1->big5: 三圳
+cp1252->cp950: 三圳
+cp1252->big5: 三圳
+cp950 encode fail: 'cp950' codec can't encode character '\xa4' in position 0: illegal multibyte sequence
